@@ -53,6 +53,7 @@ nav{background-color: #0e1111;
 
 .siva_barva{
     background-color: #101414;
+    border-radius: 1%
 }
 
 .pisava_glavna{
@@ -74,4 +75,14 @@ nav{background-color: #0e1111;
 .NasloviVTemi{
     font-weight: bold;
     font-size: 25px;
+}
+
+.podcrtano{
+    text-decoration: underline;
+}
+
+.belaBarva{
+    color:white;
+    text-decoration: none; 
+    background-color: none;
 }
