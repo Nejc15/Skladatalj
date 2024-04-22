@@ -67,3 +67,11 @@ nav{background-color: #0e1111;
     border-left: 7px solid #1B89DA;
 }
 
+.naslovTeme{
+    font-size: 40px;
+}
+
+.NasloviVTemi{
+    font-weight: bold;
+    font-size: 25px;
+}
