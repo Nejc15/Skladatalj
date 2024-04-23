@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+
   <nav class="navbar navbar-expand-lg" >
     <div class="container-fluid">
         <a href="index.html"><img src="Images/logobeli.png"  height="35px"></a> 
@@ -34,7 +35,55 @@
     </div>
   </nav>
 
-      <footer class="Nogica fuzbal" align="center">
+ 
+
+    <div class="modra_crta"></div>
+<div class="container">
+  <h2 align="center">Profil</h2>
+  <form action="#" method="post">
+      <div class="mb-3">
+          <label for="fname" class="form-label">Ime:</label>
+          <input type="text" class="form-control" id="fname" name="fname">
+      </div>
+      <div class="mb-3">
+          <label for="lname" class="form-label">Priimek:</label>
+          <input type="text" class="form-control" id="lname" name="lname">
+      </div>
+      <div class="mb-3">
+          <label for="email" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="email" name="email">
+      </div>
+      <div class="mb-3">
+          <label for="address" class="form-label">Naslov:</label>
+          <input type="text" class="form-control" id="address" name="address">
+      </div>
+      <div class="mb-3">
+          <label for="phone" class="form-label">Telefonska:</label>
+          <input type="tel" class="form-control" id="phone" name="phone">
+      </div>
+      <div class="mb-3">
+          <label for="city" class="form-label">Mesto:</label>
+          <input type="text" class="form-control" id="city" name="city">
+      </div>
+      <div class="mb-3">
+          <label for="street" class="form-label">Ulica:</label>
+          <input type="text" class="form-control" id="street" name="street">
+      </div>
+      <div class="mb-3">
+          <label for="password" class="form-label">Geslo:</label>
+          <input type="password" class="form-control" id="password" name="password">
+      </div>
+      <div class="mb-3">
+          <label for="confirm_password" class="form-label">Potrdi geslo:</label>
+          <input type="password" class="form-control" id="confirm_password" name="confirm_password">
+      </div>
+      <button type="submit" class="btn btn-primary" >Potrdi</button>
+      <button type="button" class="btn btn-secondary" onclick="cancel()">Prekliči</button>
+  </form>
+</div>
+
+
+      <footer class="Nogica" align="center">
         Vse pravice pridržane našim velikim penzijam.
       </footer>
       
