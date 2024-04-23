@@ -77,6 +77,7 @@ nav{background-color: #0e1111;
     font-size: 25px;
 }
 
+
 .podcrtano{
     text-decoration: underline;
 }
@@ -86,3 +87,18 @@ nav{background-color: #0e1111;
     text-decoration: none; 
     background-color: none;
 }
+
+.fuzbal {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .crna{
+    color: black;
+  }
+
+
