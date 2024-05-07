@@ -114,5 +114,26 @@ nav{background-color: #0e1111;
     color:#1B89DA;
 }
 
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+
+  ::-webkit-scrollbar-thumb {
+    background: #1b89da; 
+    border-radius: 10px;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #1477bd; 
+  }
+
 
 
