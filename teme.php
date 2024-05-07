@@ -10,30 +10,9 @@
     <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg" >
-    <div class="container-fluid">
-        <a href="index.html"><img src="Images/logobeli.png"  height="35px"></a> 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
-        <ul class="navbar-nav"> 
-          <li class="nav-item">
-            <a class="nav-link" href="teme.html" style="color: white;">Izobraževanje</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="kvizi.html" style="color: white;">Kvizi</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" style="color: white;">Rezultati</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="profil.html" style="color: white;">Profil</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <?php
+      include("Includes/navigacija.php");
+    ?>
       <article>
         <div class="modra_crta"></div>
 
@@ -43,17 +22,17 @@
                 <div class="col-12" align="left">
                     <h1 class="naslovTeme"><b>Teme za izobraževanje</b></h1>
 
-                    <a class="belaBarva" href="tema1.html"><h2 class="NasloviVTemi podcrtano">Tema 1: Uvod</h2></a>
+                    <a class="belaBarva" href="tema1.php"><h2 class="NasloviVTemi podcrtano">Tema 1: Uvod</h2></a>
                     V uvodnem delu boste izvedeli nekaj o osnovah tega izobraževanja, ter kaj lahko
                     pričakujete v nadaljni literaturi in kvizih.
                     <br><br>
 
-                    <a class="belaBarva" href="tema2.html"><h2 class="NasloviVTemi podcrtano">Tema 2: Komponente</h2></a>
+                    <a class="belaBarva" href="tema2.php"><h2 class="NasloviVTemi podcrtano">Tema 2: Komponente</h2></a>
                     V tem poglavju smo spoznali osnovne komponente računalnika: procesor, 
                     pomnilnik, trdi disk ali SSD, grafično kartico in matično ploščo...
                     <br><br>
 
-                    <a class="belaBarva" href="tema3.html"><h2 class="NasloviVTemi podcrtano">Tema 3: Programi</h2></a>
+                    <a class="belaBarva" href="tema3.php"><h2 class="NasloviVTemi podcrtano">Tema 3: Programi</h2></a>
                     V tem poglavju smo spoznali osnovne računalniške programe, kot so operacijski sistem, spletni 
                     brskalniki, urejevalniki besedil, preglednice, in programi za urejanje slik ter videoposnetkov
                     <br><br>
