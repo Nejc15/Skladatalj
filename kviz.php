@@ -151,7 +151,7 @@
       
     </div>
       <div class="text-center mt-4">
-        <button class="btn btn-primary" >Oddaj</button>
+        <button class="btn btn-primary" onclick="osvezi()">Oddaj</button>
       </div>
    </div>
  </div>
@@ -159,6 +159,13 @@
     <footer class="Nogica" align="center">
       Vse pravice pridržane našim velikim penzijam.
     </footer>
+   <script>
+      function osvezi(){
+        window.location.reload();
+      }
+
+</script>
     
+
 </body>
 </html>
