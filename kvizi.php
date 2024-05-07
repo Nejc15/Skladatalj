@@ -7,32 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="CSS/skladatalj.css" rel="stylesheet" >
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" >
-        <div class="container-fluid">
-            <a href="index.html"><img src="Images/logobeli.png"  height="35px"></a> 
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
-            <ul class="navbar-nav"> 
-              <li class="nav-item">
-                <a class="nav-link" href="teme.html" style="color: white;">Izobraževanje</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="kvizi.html" style="color: white;">Kvizi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white;">Rezultati</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="profil.html" style="color: white;">Profil</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+
+    <?php
+      include("Includes/navigacija.php");
+    ?>
 
       <article>
         <div class="modra_crta"></div>
@@ -43,13 +24,13 @@
                 <div class="col-12" align="left">
                     <h1 align="center" class="naslovTeme"><b>Kvizi</b></h1>
 
-                    <a class="belaBarva" href="tema1.html"><h2 class="NasloviVTemi podcrtano">Kviz - Osnove</h2></a>
+                    <a class="belaBarva" href="kviz.php"><h2 class="NasloviVTemi podcrtano">Kviz - Osnove</h2></a>
                     Kviz o osnovnih stvareh računalnika je zasnovan za preizkus znanja o ključnih sestavnih delih računalnika<br>
                     in osnovnih programih. Vprašanja lahko pokrivajo naslednja področja: <br>
                     strojna oprema, programska oprema, sestavni deli
                     <br><br>
 
-                    <a class="belaBarva" href="tema2.html"><h2 class="NasloviVTemi podcrtano">Kviz - Strojna oprema</h2></a>
+                    <a class="belaBarva" href="#"><h2 class="NasloviVTemi podcrtano">Kviz - Strojna oprema</h2></a>
                     V tem poglavju smo spoznali osnovne komponente računalnika: procesor, 
                     pomnilnik, trdi disk ali SSD, grafično kartico in matično ploščo...
 
