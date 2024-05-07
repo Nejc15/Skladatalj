@@ -11,7 +11,7 @@ nav{background-color: #0e1111;
 }
 
 .navbar-nav{
-    gap: 60px;
+    gap: 80px;
 }
 
 .slika_glavna{
@@ -53,6 +53,7 @@ nav{background-color: #0e1111;
 
 .siva_barva{
     background-color: #101414;
+    border-radius: 1%
 }
 
 .pisava_glavna{
@@ -75,6 +76,18 @@ nav{background-color: #0e1111;
     font-weight: bold;
     font-size: 25px;
 }
+
+
+.podcrtano{
+    text-decoration: underline;
+}
+
+.belaBarva{
+    color:white;
+    text-decoration: none; 
+    background-color: none;
+}
+
 .fuzbal {
     position: fixed;
     left: 0;
@@ -83,6 +96,23 @@ nav{background-color: #0e1111;
     text-align: center;
     padding: 20px;
   }
+
   .crna{
     color: black;
   }
+
+  .container_profil {
+    margin-top: 60px; 
+    width: 750px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color: rgb(26, 26, 27);
+    border-radius: 10px; 
+}
+
+.form-label{
+    color:#1B89DA;
+}
+
+
+

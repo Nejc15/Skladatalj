@@ -7,41 +7,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link href="CSS/skladatalj.css" rel="stylesheet" >
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Outfit' rel='stylesheet'>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#" style="color: white; margin-right: 20px;">Navbar</a> <!-- Extra margin to the right -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse justify-content-center" id="navbarNav"> 
-            <ul class="navbar-nav"> 
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#" style="color: white;">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white;">Izobraževanje</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white;">Kvizi</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white;">Rezultati</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" style="color: white;">Profil</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <?php
+      include("Includes/navigacija.php");
+    ?>
 
       <article>
         <div class="modra_crta"></div>
 
-        <div class="container text-center siva_barva pisava_glavna">
+        <div class="container siva_barva pisava_glavna">
             <div class="row">
+              <h1 class="naslovTeme" align="left"><b>Tema 1: Uvod</b></h1><br><br>
               <div class="col-6 modrirob">
                 Računalnik je nekaj, kar obdeluje podatke, tako kot 
                 super pametna mačka! Deluje tako, da sledi
@@ -74,7 +52,7 @@
         </div>
       </article>
 
-      <footer class="Nogica" align="center">
+      <footer class="Nogica fuzbal" align="center">
         Vse pravice pridržane našim velikim penzijam.
       </footer>
       
