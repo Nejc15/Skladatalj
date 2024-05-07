@@ -57,7 +57,7 @@
           <label for="confirm_password" class="form-label">Potrdi geslo:</label>
           <input type="password" class="form-control" id="confirm_password" name="confirm_password">
       </div>
-      <button type="submit" class="btn btn-primary" >Potrdi</button>
+      <button type="submit" class="btn btn-primary" id="confirm_button">Potrdi</button>
       <button type="button" class="btn btn-secondary" onclick="cancel()">Prekliči</button>
 
       <script>
@@ -75,6 +75,7 @@
       }
     </script>
   </form>
+
 </div>
 
 
