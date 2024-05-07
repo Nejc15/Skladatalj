@@ -59,6 +59,21 @@
       </div>
       <button type="submit" class="btn btn-primary" >Potrdi</button>
       <button type="button" class="btn btn-secondary" onclick="cancel()">Prekliči</button>
+
+      <script>
+      function cancel() {
+        document.getElementById("fname").value = "";
+        document.getElementById("lname").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("address").value = "";
+        document.getElementById("phone").value = "";
+        document.getElementById("city").value = "";
+        document.getElementById("street").value = "";
+        document.getElementById("password").value = "";
+        document.getElementById("confirm_password").value = "";
+
+      }
+    </script>
   </form>
 </div>
 
