@@ -156,9 +156,9 @@
    </div>
  </div>
  <br />
-    <footer class="Nogica" align="center">
-      Vse pravice pridržane našim velikim penzijam.
-    </footer>
+ <?php
+      include("Includes/tacka.php");
+  ?>
    <script>
       function osvezi(){
         window.location.reload();

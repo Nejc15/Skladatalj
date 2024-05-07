@@ -17,15 +17,15 @@
           <div class="modra_crta"></div>
           <div><img src="Images/glavnaslika.png" class="slika_glavna" alt="GlavnaSlikaStrani"></div>
           <ul align="center">
-           <a href="tema1.html"><button type="button" class="gumbic">Tema 1: Uvod</button></a>
-           <a href="tema2.html"><button type="button" class="gumbic">Tema 2: Komponente</button></a>
-            <a href="tema3.html"><button type="button" class="gumbic">Tema 3: Programi</button></a>
+           <a href="tema1.php"><button type="button" class="gumbic">Tema 1: Uvod</button></a>
+           <a href="tema2.php"><button type="button" class="gumbic">Tema 2: Komponente</button></a>
+            <a href="tema3.php"><button type="button" class="gumbic">Tema 3: Programi</button></a>
           </ul>
     </article>
 
-    <footer class="Nogica" align="center">
-      Vse pravice pridržane našim velikim penzijam.
-    </footer>
+    <?php
+      include("Includes/tacka.php");
+    ?>
     
 </body>
 </html>
