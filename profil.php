@@ -22,7 +22,7 @@
     <div class="modra_crta"></div>
     <div class="container_profil">
         <h2 align="center">Profil</h2>
-        <form action="#" method="post">
+        <form action="potrdilo.php" method="POST">
             <div class="mb-3">
                 <label for="fname" class="form-label">Ime:</label>
                 <input type="text" class="form-control" id="fname" name="fname">
@@ -36,8 +36,8 @@
                 <input type="email" class="form-control" id="email" name="email">
             </div>
             <div class="mb-3">
-                <label for="address" class="form-label">Naslov:</label>
-                <input type="text" class="form-control" id="address" name="address">
+                <label for="address" class="form-label">Ulica:</label>
+                <input type="text" class="form-control" id="address" name="ulica">
             </div>
             <div class="mb-3">
                 <label for="phone" class="form-label">Telefonska:</label>
@@ -48,8 +48,8 @@
                 <input type="text" class="form-control" id="city" name="city">
             </div>
             <div class="mb-3">
-                <label for="street" class="form-label">Ulica:</label>
-                <input type="text" class="form-control" id="street" name="street">
+                <label for="street" class="form-label">Poštna Številka:</label>
+                <input type="number" class="form-control" id="street" name="postnast">
             </div>
             <div class="mb-3">
                 <label for="password" class="form-label">Geslo:</label>
