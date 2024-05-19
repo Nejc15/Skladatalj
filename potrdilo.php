@@ -24,7 +24,7 @@
         Ime in priimek: <?php echo $_POST['fname'] . ' ' . $_POST['lname'];?><br>
         E-pošta: <?php echo $_POST['email'];?><br>
         Naslov: <?php echo $_POST['ulica'].', '.$_POST['postnast'].' '.$_POST['city'];?><br>
-        Telefonska Številka:<?php echo $_POST['phone'];?><br>
+        Telefonska številka: <?php echo $_POST['phone'];?><br>
         Je to mogoče tvoje geslo: <?php echo $_POST['password'];?><br>
         <br><br>
         aja...
